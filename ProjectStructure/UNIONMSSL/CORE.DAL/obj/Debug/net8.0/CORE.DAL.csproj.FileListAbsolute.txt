@@ -1,0 +1,12 @@
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\bin\Debug\net8.0\CORE.DAL.deps.json
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\bin\Debug\net8.0\CORE.DAL.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\bin\Debug\net8.0\CORE.DAL.pdb
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.AssemblyInfoInputs.cache
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.AssemblyInfo.cs
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.csproj.CoreCompileInputs.cache
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.sourcelink.json
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\refint\CORE.DAL.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\CORE.DAL.pdb
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\CORE.DAL\obj\Debug\net8.0\ref\CORE.DAL.dll

@@ -1663,6 +1663,42 @@
             "rid": "win"
           }
         }
+      },
+      "COMMON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/COMMON.dll": {}
+        }
+      },
+      "CORE.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CORE.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.DAL.dll": {}
+        }
+      },
+      "INFRASTRUCTURE.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CORE.DAL": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.15",
+          "Microsoft.EntityFrameworkCore": "8.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.15"
+        },
+        "compile": {
+          "bin/placeholder/INFRASTRUCTURE.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/INFRASTRUCTURE.BLL.dll": {}
+        }
       }
     }
   },
@@ -4440,14 +4476,30 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "COMMON/1.0.0": {
+      "type": "project",
+      "path": "../COMMON/COMMON.csproj",
+      "msbuildProject": "../COMMON/COMMON.csproj"
+    },
+    "CORE.DAL/1.0.0": {
+      "type": "project",
+      "path": "../CORE.DAL/CORE.DAL.csproj",
+      "msbuildProject": "../CORE.DAL/CORE.DAL.csproj"
+    },
+    "INFRASTRUCTURE.BLL/1.0.0": {
+      "type": "project",
+      "path": "../INFRASTRUCTURE.BLL/INFRASTRUCTURE.BLL.csproj",
+      "msbuildProject": "../INFRASTRUCTURE.BLL/INFRASTRUCTURE.BLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "COMMON >= 1.0.0",
+      "INFRASTRUCTURE.BLL >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.15",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.15",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.15",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.15",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.15"
     ]
   },
@@ -4483,7 +4535,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\COMMON\\COMMON.csproj": {
+              "projectPath": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\COMMON\\COMMON.csproj"
+            },
+            "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj": {
+              "projectPath": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4511,10 +4570,6 @@
             "version": "[8.0.15, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
-            "target": "Package",
-            "version": "[8.0.15, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.15, )"
           },

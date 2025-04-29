@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using UNIONMSUI.Data;
+using INFRASTRUCTURE.BLL;
+using Microsoft.Extensions.DependencyInjection;
+using INFRASTRUCTURE.BLL.Data; // Ensure this namespace is included
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<AppDbContext>();
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddInfrastructureDI();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

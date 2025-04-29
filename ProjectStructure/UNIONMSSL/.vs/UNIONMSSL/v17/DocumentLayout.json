@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\infrastructure.bll\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|solutionrelative:infrastructure.bll\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FDBCE1-2619-4CBE-BCA4-25BF6260ED07}|UNIONMSUI\\UNIONMSUI.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\unionmsui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FDBCE1-2619-4CBE-BCA4-25BF6260ED07}|UNIONMSUI\\UNIONMSUI.csproj|solutionrelative:unionmsui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\infrastructure.bll\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|solutionrelative:infrastructure.bll\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\infrastructure.bll\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|solutionrelative:infrastructure.bll\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\infrastructure.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6903F6-195B-4AE7-93FD-C690C801E31C}|INFRASTRUCTURE.BLL\\INFRASTRUCTURE.BLL.csproj|solutionrelative:infrastructure.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\core.dal\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|solutionrelative:core.dal\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\core.dal\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|solutionrelative:core.dal\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|d:\\three_layer_architecture_implementaion\\projectstructure\\unionmssl\\core.dal\\core.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ED118FC-E192-4B8B-A3A9-CCBF695C2393}|CORE.DAL\\CORE.DAL.csproj|solutionrelative:core.dal\\core.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\UNIONMSUI\\Program.cs",
+              "RelativeDocumentMoniker": "UNIONMSUI\\Program.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\UNIONMSUI\\Program.cs",
+              "RelativeToolTip": "UNIONMSUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:23:27.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfrastructureDI.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\InfrastructureDI.cs",
+              "RelativeDocumentMoniker": "INFRASTRUCTURE.BLL\\InfrastructureDI.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\InfrastructureDI.cs",
+              "RelativeToolTip": "INFRASTRUCTURE.BLL\\InfrastructureDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:22:20.721Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -22,6 +81,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "CORE.DAL\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "CORE.DAL\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:08:53.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "INFRASTRUCTURE.BLL\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "INFRASTRUCTURE.BLL\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:06:16.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CORE.DAL",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\CORE.DAL.csproj",
+              "RelativeDocumentMoniker": "CORE.DAL\\CORE.DAL.csproj",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\CORE.DAL.csproj",
+              "RelativeToolTip": "CORE.DAL\\CORE.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T10:48:18.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "CORE.DAL\\Entities\\Customer.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\CORE.DAL\\Entities\\Customer.cs",
+              "RelativeToolTip": "CORE.DAL\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:48:00.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "INFRASTRUCTURE.BLL\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "INFRASTRUCTURE.BLL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:26:57.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "INFRASTRUCTURE.BLL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\Three_Layer_Architecture_Implementaion\\ProjectStructure\\UNIONMSSL\\INFRASTRUCTURE.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "INFRASTRUCTURE.BLL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:18:32.265Z",
+              "EditorCaption": ""
             }
           ]
         }

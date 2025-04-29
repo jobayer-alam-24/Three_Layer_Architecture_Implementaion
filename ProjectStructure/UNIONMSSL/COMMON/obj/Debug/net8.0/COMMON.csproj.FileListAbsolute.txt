@@ -1,0 +1,12 @@
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\bin\Debug\net8.0\COMMON.deps.json
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\bin\Debug\net8.0\COMMON.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\bin\Debug\net8.0\COMMON.pdb
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.GeneratedMSBuildEditorConfig.editorconfig
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.AssemblyInfoInputs.cache
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.AssemblyInfo.cs
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.csproj.CoreCompileInputs.cache
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.sourcelink.json
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\refint\COMMON.dll
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\COMMON.pdb
+D:\Three_Layer_Architecture_Implementaion\ProjectStructure\UNIONMSSL\COMMON\obj\Debug\net8.0\ref\COMMON.dll
