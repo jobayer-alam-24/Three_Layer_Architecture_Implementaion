@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UNIONMSUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e7825d2e3eb012de0866781bf70284552cba535")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d34f05583fa01ef03cb6de06a752f849e53ada")]
 [assembly: System.Reflection.AssemblyProductAttribute("UNIONMSUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UNIONMSUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
